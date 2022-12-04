@@ -7,3 +7,7 @@ def add(a, b):
 
 
 print("{} + {} = {}".format(a, b, add(a, b)))
+
+if __name__ == "__main__":
+    import sys
+    add(int(sys.argv[1]))
