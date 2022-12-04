@@ -7,6 +7,3 @@ def add(a, b):
 
 
 print("{} + {} = {}".format(a, b, add(a, b)))
-
-if __name__ == "__add_0__":
-    add()
