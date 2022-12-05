@@ -3,5 +3,7 @@ def element_at(my_list, idx):
     my_list.pop()
     if idx < 0:
         return None
-    if any(x < idx for x in my_list):
+    if idx >= len(my_list):
         return None
+    else:
+        return my_list[idx]
